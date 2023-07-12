@@ -1,4 +1,4 @@
-# documentation# Deploy IBM Sterling Connect Direct C:D
+# Deploy IBM Sterling Connect Direct C:D
 
 This recipe is for deploying the IBM Sterling Connect Direct (SC:D) in the `scd` namespace. This recipe also assumes you've already deployed the [Sterling File Gateway recipe](sfg-recipe.md) - either `b2bi-nonprod` and `b2bi-prod`, or both. 
 
@@ -69,20 +69,20 @@ In particular, these infra resources are assumed to have already been deployed (
     ./direct
     ```
 1. OUTPUT
-```
-        **************************************************************
-        *                                                            *
-        *            Licensed Materials - Property of IBM            *
-        *                                                            *
-        *         IBM(R) Connect:Direct(R) for UNIX 6.3.0.0          *
-        *                   Build date: 12May2023                    *
-        *                                                            *
-        *  (C) Copyright IBM Corp. 1992, 2023 All Rights Reserved.   *
-        *                                                            *
-        **************************************************************
+    ```
+            **************************************************************
+            *                                                            *
+            *            Licensed Materials - Property of IBM            *
+            *                                                            *
+            *         IBM(R) Connect:Direct(R) for UNIX 6.3.0.0          *
+            *                   Build date: 12May2023                    *
+            *                                                            *
+            *  (C) Copyright IBM Corp. 1992, 2023 All Rights Reserved.   *
+            *                                                            *
+            **************************************************************
 
-Enter a ';' at the end of a command to submit it. Type 'quit;' to exit CLI.
+    Enter a ';' at the end of a command to submit it. Type 'quit;' to exit CLI.
 
-Direct> 
-```
+    Direct> 
+    ```
 
