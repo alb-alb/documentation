@@ -40,7 +40,7 @@ In particular, these infra resources are assumed to have already been deployed (
     git clone git@github.com:${GIT_ORG}/multi-tenancy-gitops-services.git
     ```
 ### Services - kustomization.yaml (in **multi-tenancy-gitops** repository)
-1. Deploy the DB2 and pre-requisite resources for SCCM in the main `multi-tenancy-gitops` repository
+1. Deploy all pre-requisite resources for C:D in the main `multi-tenancy-gitops` repository
 
     1. Edit the Services layer `${GITOPS_PROFILE}/2-services/kustomization.yaml` by uncommenting the following lines to install the pre-requisites for SCCM.
         ```yaml
